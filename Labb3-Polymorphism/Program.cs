@@ -11,6 +11,10 @@ namespace Labb3_Polymorphism
             geometri = new Cirkel();
             Console.WriteLine($"Area av cirklen: {geometri.Area()}");
 
+            geometri = new Fyrkant();
+            Console.WriteLine($"Area av cirklen: {geometri.Area()}");
+
+
         }
     }
 }
