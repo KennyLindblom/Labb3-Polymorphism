@@ -6,7 +6,11 @@ namespace Labb3_Polymorphism
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Geometri geometri;
+
+            geometri = new Cirkel();
+            Console.WriteLine($"Area av cirklen: {geometri.Area()}");
+
         }
     }
 }
