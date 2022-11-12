@@ -6,16 +6,16 @@ namespace Labb3_Polymorphism
     {
         static void Main(string[] args)
         {
-            Geometri geometri;  //Objekt reference
+           
 
-            geometri = new Cirkel();
-            Console.WriteLine($"Area av cirklen: {geometri.Area()}");
+            Geometri circle = new Cirkel();
+            Console.WriteLine($"Area av cirklen: {circle.Area()}");
 
-            geometri = new Fyrkant();
-            Console.WriteLine($"Area av Fyrkant: {geometri.Area()}");
+            Geometri fyrkant = new Fyrkant();
+            Console.WriteLine($"Area av Fyrkant: {fyrkant.Area()}");
 
-            geometri = new Rektangel();
-            Console.WriteLine($"Area av Rektangel: {geometri.Area()}");
+            Geometri rektangel = new Rektangel();
+            Console.WriteLine($"Area av Rektangel: {rektangel.Area()}");
 
 
 
